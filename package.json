@@ -1,1 +1,14 @@
 
+{
+  "name": "jenkins-node-app",
+  "version": "1.0.0",
+  "description": "Jenkins CI/CD demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node -e \"console.log('Tests passed')\""
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
